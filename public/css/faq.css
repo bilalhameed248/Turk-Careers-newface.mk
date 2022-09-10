@@ -1,0 +1,59 @@
+/*Top section background image*/
+#section_01{
+    background-image: url(https://www.newface.mk/public/img/about-us-title-bg.jpg);
+    background-size: cover;
+     min-height:580px;
+     background-position: center;
+     z-index: -999;
+}
+body{
+    font-family: Platform,Helvetica,sans-serif;
+    line-height: 22px;
+    letter-spacing: -.3px;
+    margin-top: 5%;
+}
+#h3{
+    font-size: 56px;
+    line-height: 66px;
+    font-style: normal;
+    color: #fff;
+    z-index: 999;
+    font-weight: 500;
+    text-decoration: none;
+}
+#h4{
+    font-size: 56px;
+    line-height: 66px;
+    font-style: normal;
+    color: #fff;
+    z-index: 999;
+    font-weight: 500;
+    text-decoration: none;
+}
+.line2{
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 50px;
+    text-decoration: none !important;
+}
+#h6{
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 500;
+}
+#line1,p{
+    font-weight: 400;
+}
+ul li span{
+    font-weight: 400;
+}
+ul li{
+    padding: 0 0 23px 1em;
+    line-height: 26px;
+}
+#main p span{
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -.3px;
+    color: #363636;
+}

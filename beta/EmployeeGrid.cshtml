@@ -1,0 +1,96 @@
+﻿@{
+    var db = Database.Open("DataExample");
+    var sqlCommand = "SELECT * FROM Employees ORDER BY Surname";
+    var result = db.Query(sqlCommand);
+    var employeeGrid = new WebGrid(result);   
+
+
+    /* formatted WebGrid */
+
+    var formattedSqlCommand = "SELECT Forenames, Surname, EmailAddress, Role FROM Employees ORDER BY Surname";
+    var formattedResult = db.Query(formattedSqlCommand);
+    var formattedEmployeeGrid = new WebGrid(source: formattedResult,
+                                            defaultSort: "Surname",
+                                            rowsPerPage: 3);
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Employee Grid</title>
+        <style type="text/css">
+            .name {width:  150px;}
+            .role {font-style: italic;}
+            
+            .grid {margin:  4px; border-collapse: collapse; width: 600px;}
+            .grid th, .grid.td {border:  1px solid #CCC; padding: 5px;}
+            .header {background-color: #DDD; font-weight: bold;}
+            .heade a { text-decoration: none;}
+            .alt {background-color: #EEE; color: #000;}
+        </style>
+    </head>
+    <body>
+        <h1>Employee Grid</h1>
+        <div id="grid">
+            @employeeGrid.GetHtml()
+        </div>
+
+        <h1>Formatted Grid</h1>
+        <div id="grid">
+            @formattedEmployeeGrid.GetHtml(
+                
+                tableStyle: "grid",
+                headerStyle: "header",
+                alternatingRowStyle: "alt",
+
+                mode: WebGridPagerModes.All,
+                firstText: "First",
+                previousText: "Prev",
+                nextText: "Next",
+                lastText: "Last",
+
+                columns: formattedEmployeeGrid.Columns(
+                    formattedEmployeeGrid.Column(
+                        "Surname",
+                        "Surname",
+                        format: @<text>
+                                    @item.Surname.ToUpper()
+                                </text>,
+                        style: "name"
+                    ),
+
+                    formattedEmployeeGrid.Column(
+                        "Forenames",
+                        "Forenames",
+                        format: @<text>
+                                    @item.Forenames
+                                </text>,
+                        style: "name"
+                    ),
+
+                    formattedEmployeeGrid.Column(
+                        "EmailAddress",
+                        "Email Address",
+                        format: @<text>
+                                    <a href="mailto:@item.EmailAddress">@item.EmailAddress</a>
+                                </text>,
+                        style: "name"
+                    ),
+
+                    formattedEmployeeGrid.Column(
+                        "Role",
+                        "Job Title",
+                        format: @<text>
+                                    @item.Role
+                                </text>,
+                        style: "role"
+                    )
+                )
+       )
+        </div>
+
+
+    </body>
+</html>

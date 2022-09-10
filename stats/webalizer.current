@@ -1,0 +1,182 @@
+# Webalizer V2.23-08 Incremental Data - 02/01/2021 00:51:50
+2021 2 1 0 51 50
+92 80 4 17 2 3 5082344 28 4 0
+4 92 92 1 1
+92 80 5082344 4 28 4
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+92 80 5082344 28
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+80
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+12
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/public/js/mdb.min.js
+0 4 94383591556112 1153452 0 0
+/public/img/d.png
+1 4 94383591556336 2548 0 0
+/public/img/b.png
+1 4 164 2576 0 0
+/public/img/avatar.png
+1 4 94383591548432 76360 0 0
+/public/js/popper.min.js
+0 4 7308613718024350060 83856 0 0
+/public/css/style.css
+0 4 94383591475632 39856 0 0
+/public/img/company-logo.png
+1 4 94383591548320 47460 0 0
+/public/js/bootstrap.min.js
+0 4 94383591554464 240528 0 0
+/public/img/score_scale.png
+1 4 94383591561472 708 0 0
+/public/img/banner_bg.jpg
+1 4 94383591548672 183956 0 0
+/public/css/bootstrap.min.css
+0 4 94383591475936 641428 0 0
+/public/img/a_active.png
+1 4 94383591548544 6324 0 0
+/
+0 16 94383591475280 1125088 3 0
+/public/css/mdb.min.css
+0 4 94383591555392 1107876 0 0
+/public/img/c.png
+1 4 94383591556848 2600 0 0
+/public/js/jquery.min.js
+0 4 94383591475056 357900 0 0
+/public/js/theme.js
+0 4 94383591476448 9828 0 0
+# End Of Table - urls
+# -sites- (monthly)
+37.53.67.34.bc.googleusercontent.com
+0 23 20 1270586 1 1612140689
+/
+66.79.202.35.bc.googleusercontent.com
+0 23 20 1270586 1 1612140699
+/
+35.70.239.35.bc.googleusercontent.com
+0 23 20 1270586 1 1612140646
+/
+150.70.154.104.bc.googleusercontent.com
+0 23 20 1270586 1 1612140708
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+37.53.67.34.bc.googleusercontent.com
+0 23 20 1270586 1 1612140689
+/
+66.79.202.35.bc.googleusercontent.com
+0 23 20 1270586 1 1612140699
+/
+35.70.239.35.bc.googleusercontent.com
+0 23 20 1270586 1 1612140646
+/
+150.70.154.104.bc.googleusercontent.com
+0 23 20 1270586 1 1612140708
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 28
+https://jobs.admk.xyz/
+0 64
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.104 Safari/537.36
+0 12
+python-requests/2.25.1
+0 8
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+0 72
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

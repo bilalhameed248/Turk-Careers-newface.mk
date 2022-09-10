@@ -1,0 +1,176 @@
+body {
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-variant-numeric: proportional-nums;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-family: Karla, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.top_strip {
+    min-height: 70px;
+    background-color: #9ed6d4;
+}
+
+.text-center {
+    color: #ffffff;
+    text-decoration: underline;
+    background-color: transparent;
+    font-weight: bolder;
+    font-family: helvetica, arial, sans-serif;
+    line-height: 2.2rem;
+    letter-spacing: -.3px;
+}
+
+.main-text {
+    color: #363636;
+    font-size: 88px;
+    line-height: 98px;
+    font-family: Platform, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#paragraph {
+    font-family: helvetica, arial, sans-serif;
+    /*font-size: 25px;*/
+    line-height: 35px;
+    letter-spacing: -.3px;
+}
+
+#btn {
+    background-color: #004ab2;
+    border-color: #6754c8;
+    color: #fff;
+    border-radius: 100px;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 700;
+    height: 56px;
+    align-items: center;
+    margin: 0;
+    outline: 0;
+    padding: 0 32px;
+    position: relative;
+}
+
+#h4 {
+    color: #fff;
+    font-size: 75px;
+    line-height: 98px;
+    font-family: Platform, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.headings {
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: left;
+    font-family: Platform, Helvetica, sans-serif;
+}
+
+.headings1 {
+    font-size: 51px;
+    line-height: 66px;
+    font-weight: 500;
+    color: #000000;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-family: Platform, Helvetica, sans-serif;
+}
+
+.more {
+    line-height: 28px;
+    letter-spacing: -.3px;
+    color: #ffffff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-bottom: 1em;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.more1 {
+    line-height: 28px;
+    letter-spacing: -.3px;
+    color: #363636;
+    font-size: 100%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-bottom: 1em;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#test {
+    background-color: #004ab2;
+    margin-top: 8%;
+}
+
+
+/*candidate images Images css */
+
+.card-img-top {
+    width: 100%;
+    height: 120px;
+}
+
+.card-wrapper {
+    margin: 5% 0;
+}
+
+.custom-circle-image {
+    width: 10vw;
+    height: 10vw;
+}
+
+.col-sm-3 {
+    border: 1px solid transparent;
+    margin-right: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.custom-circle-image img {
+    object-fit: cover;
+}
+
+.card-title {
+    letter-spacing: 1.1px;
+}
+
+.card-text {
+    font-family: MerriweatherRegular;
+    font-size: 22px;
+    line-height: initial;
+}
+
+.text-right {
+    color: #0e8aff;
+}
+
+.section {
+    background-color: #0092ff;
+}
+
+#h5 {
+    color: #4727ae;
+    font-size: 56px;
+    font-family: Platform, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.FC6D71 {
+    background-color: #ff9d1e;
+}

@@ -1,0 +1,64 @@
+Tarih: 4/20/2021 12:43:50 PM
+
+Lisans işlemine girildi.
+
+Machine Id çekmeye çalışılacak.
+
+cpuserialNumber+hdd serial Number
+Makina Kodu: BFEBFBFF000506E3+S5SUNJ0NA01478B
+Machine Id çekildi.
+
+Kullanıcı adı alındı..
+
+Şifrelemelere başlandı..
+
+Şifrelemeler bitti.
+
+Tarih: 4/20/2021 12:44:19 PM
+
+Lisans işlemine girildi.
+
+Machine Id çekmeye çalışılacak.
+
+cpuserialNumber+hdd serial Number
+Makina Kodu: BFEBFBFF000506E3+S5SUNJ0NA01478B
+Machine Id çekildi.
+
+Kullanıcı adı alındı..
+
+Şifrelemelere başlandı..
+
+Şifrelemeler bitti.
+
+Tarih: 4/20/2021 12:44:50 PM
+
+Lisans işlemine girildi.
+
+Machine Id çekmeye çalışılacak.
+
+cpuserialNumber+hdd serial Number
+Makina Kodu: BFEBFBFF000506E3+S5SUNJ0NA01478B
+Machine Id çekildi.
+
+Kullanıcı adı alındı..
+
+Şifrelemelere başlandı..
+
+Şifrelemeler bitti.
+
+Tarih: 4/20/2021 12:48:01 PM
+
+Lisans işlemine girildi.
+
+Machine Id çekmeye çalışılacak.
+
+cpuserialNumber+hdd serial Number
+Makina Kodu: BFEBFBFF000506E3+S5SUNJ0NA01478B
+Machine Id çekildi.
+
+Kullanıcı adı alındı..
+
+Şifrelemelere başlandı..
+
+Şifrelemeler bitti.
+

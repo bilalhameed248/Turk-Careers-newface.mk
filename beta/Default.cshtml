@@ -1,0 +1,51 @@
+﻿@{
+    var db = Database.Open("DataExample");
+    var sqlCommand = "SELECT * FROM Employees ORDER BY Surname";
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Employees</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <style>
+            table {border-spacing: 0px; border-collapse: collapse;}
+            th, td {border: 1px solid #ccc; padding: 10px;}
+</style>
+    </head>
+    <body>
+        <h1>Employees</h1>
+        <p>
+            <a href="add">Add an Employee</a>
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Forenames</th>
+                    <th>Surname</th>
+                    <th>Date Of Birth</th>
+                    <th>Email Address</th>
+                    <th>Role</th>
+                    <th colspan="2"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var row in db.Query(sqlCommand)){
+                    <tr>
+                        <td>@row.EmployeeId</td>
+                        <td>@row.Forenames</td>
+                        <td>@row.Surname</td>
+                        <td>@row.DateOfBirth</td>
+                        <td>@row.EmailAddress</td>
+                        <td>@row.Role</td>
+                        <td><a href="edit/@row.EmployeeId">Edit</a></td>
+                        <td><a href="delete/@row.EmployeeId">Delete</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </body>
+</html>
